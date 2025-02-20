@@ -1,0 +1,160 @@
+
+.thurm{
+    margin: 0px 0;
+}
+
+.thurm h1 {
+    position: relative;
+    font-size: 3em;
+    top: 100px;
+
+}
+
+.thurm p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1{
+    margin-top: 20px;
+    display: flex;
+    float: left;
+    margin-left: 520px;
+}
+.button2{
+    margin-top: 20px;
+    display: flex;
+    float: left;
+    margin-left: 30px;
+}
+.download-btn:hover{
+    transform: scale(1.05);
+   transition: transform 0.3s;
+   color: black;
+    background-color: white;
+}
+.browser-btn:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    color: purple;
+    background-color: pink;
+}
+.download-btn, .browser-btn {
+    background-color: #5865f2;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1em;
+    border-radius: 100px;
+    cursor: pointer;
+}
+nav {
+    display: block;
+    padding-bottom: 15%;
+    position: relative;
+}
+
+.box-right{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: rgba(178, 132, 231, 0.123);
+    border-radius: 50px;
+    position:relative;
+    top: 100px;
+    left: 260px;
+    width: 1000px;
+    bottom: 100px;
+    border: 2px solid #8b92d8;
+}
+.box-left{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: rgba(153, 86, 153, 0.274);
+    border-radius: 50px;
+    position:relative;
+    top: 100px;
+    left: 260px;
+    width: 1000px;
+    bottom: 100px;
+    border: 2px solid #8b92d8;
+}
+.box-right>.box-text{
+    font-size: 20px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    width: 50%;
+    text-align: left;
+}
+.box-left>.box-text{
+    font-size: 20px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    text-align: left;
+}
+.box-right>.box-box{
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 70px;
+    float:left;
+    background-image: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8585.jpg);
+    background-size: 100% 100%;
+    border: 0px;
+    border-radius: 50px;
+}
+.box-right>.box-box>img{
+  padding: 50px;
+}
+.box-left>.box-box{
+    width: 50%;
+    margin-top: 70px;
+    margin-right: 20px;
+    float:right;
+    background-image: url(https://media.istockphoto.com/id/1406927873/vector/subtle-gradient-blend-background.jpg?s=612x612&w=0&k=20&c=QobMWoFJTszTReSo6am7A-vlEygNVM9S0C4zQAzyPUE=);
+    background-size: 100% 100%;
+    border: 0px;
+    border-radius: 50px;
+}
+.box-left>.box-box>img{
+  padding: 50px;
+  margin-right: 100px;
+}
+.thurmnail{
+    padding: 10px;
+    background-color: #5865f2;
+    border: 0px;
+}
+.thurmnail e{
+    letter-spacing: 70px;
+}
+.taixuong{
+    background-image: url('anh/download.png');
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    display: block;
+    margin-top: 50px;
+    width: 250px;
+    background-color: #5865f2;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1em;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.taixuong:hover{
+    background-color: #ffffffdc;
+}
+.end{
+    margin-bottom: -559px;
+    background-image:none;
+    margin-left: -50px;
+}
